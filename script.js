@@ -40,7 +40,7 @@ e.preventDefault()
 
             })
 
-          text += data[i].full_name + "<br>" + "commits: " + textt
+          text += data[i].full_name + " " + "commits: " + textt + "<br>"
           
 
         }
@@ -56,7 +56,7 @@ e.preventDefault()
             .append(result)
             .classed("bar",true)
             .style("width", "20")
-            .style("height", "5" * data => data.textt);
+            .style("height",  data => data.textt);
 
      })
      
@@ -68,5 +68,3 @@ e.preventDefault()
         
 
     })
-
-
